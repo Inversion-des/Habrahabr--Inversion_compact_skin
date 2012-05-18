@@ -2,6 +2,9 @@
 Habrahabr — Inversion compact skin
 by Yuriy Babak aka Inversion (http://inversion.habrahabr.ru/), send feedback to yura.des@gmail.com
 
+v2.1.2 (18.05.12)
+- (topic page) fixed: отъехавший показатель рейтинга пользователя
+
 v2.1.1 (01.04.12)
 - небольшое исправление для формы поиска
 
@@ -71,8 +74,8 @@ v2.0.4 (26.11.11)
   .user_header .avatar b {display:none !important}
   .user_header .username {font-size:30px !important}
 
-  .karma, .rating {margin-top:1px !important;margin-left:18px !important}
-  .karma .num, .rating .num {line-height:18px !important;font-size:19px !important;margin-top:1px !important;margin-bottom:1px !important}
+  .user_header .karma, .user_header .rating {margin-top:1px !important;margin-left:18px !important}
+  .user_header .karma .num, .user_header .rating .num {line-height:18px !important;font-size:19px !important;margin-top:1px !important;margin-bottom:1px !important}
   .karma a {margin-top:0px !important;margin-bottom:-3px !important;width:11px !important;height:19px !important}
   .karma .score .vote_plus {background-position:-2px 0 !important}
   .karma .score .vote_minus {background-position:-18px -7px !important;margin-top:1px !important;}
