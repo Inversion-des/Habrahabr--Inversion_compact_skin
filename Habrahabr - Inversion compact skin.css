@@ -133,6 +133,9 @@ v2.0.4 (26.11.11)
 /* Skin info */
 #layout > .sidebar_right + div:after {font-family:Tahoma;position:relative;top:38px;font-size:10px;color:#bbb;content:"Inversion compact skin /// Feedback: yura.des@gmail.com or via inversion.habrahabr.ru"}
 
+/* rotated_posts */
+.rotated_posts a.grey {text-decoration:none !important}
+.rotated_posts a.grey:hover {text-decoration:underline !important}
 
 /* Old layout support */
 #main-page .header {position:relative;height:65px !important;padding-top:8px !important;overflow:visible !important;height:75px !important}
