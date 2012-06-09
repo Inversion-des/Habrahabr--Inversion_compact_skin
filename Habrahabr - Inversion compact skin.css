@@ -34,7 +34,7 @@ v2.0.4 (26.11.11)
   #topline {height:auto  !important}
 
   /* Logo */
-  #header a.logo {position:absolute;left:-112px;top:-6px;z-index:1}
+  #header a.logo {position:absolute;left:-112px;top:-6px;z-index:1;background: transparent url("http://habrastorage.org/storage2/30b/1da/a70/30b1daa70804daa87920a86832a41f38.png") repeat scroll -76px -144px !important}
   #header a.logo:hover {background-position:-76px -274px !important}
   #layout > .content_left {position:relative !important;z-index:2;width:72% !important}
 
