@@ -2,6 +2,9 @@
 Habrahabr — Inversion compact skin
 by Yuriy Babak aka Inversion (http://inversion.habrahabr.ru/), send feedback to yura.des@gmail.com
 
+v2.1.5 (03.11.12)
+- исправлены стили для кнопки ответа на комментарий
+
 v2.1.4 (13.09.12)
 - Запрещаем блоку "Лучшее за 24 часа" внезапно начинать следовать за скроллингом страницы
 
@@ -113,9 +116,9 @@ v2.0.4 (26.11.11)
 /* Comments */
 
   /* Reply */
-  a.reply {border-bottom-style:none !important;position:relative;top:-4px}
-  .comments_list .message + div.reply a.reply {visibility:hidden}
-  .comments_list .message:hover + div.reply a.reply, .comments_list div.reply:hover a.reply {visibility:visible}
+  a.reply_link {border-bottom-style:none !important;position:relative;top:-4px}
+  .comments_list .message + div.reply a.reply_link {visibility:hidden}
+  .comments_list .message:hover + div.reply a.reply_link, .comments_list div.reply:hover a.reply_link {visibility:visible}
   .comments_list .comment_item .reply_comments {margin-top:10px !important}
   
   /* Padding */
