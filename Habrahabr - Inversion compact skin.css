@@ -112,6 +112,8 @@ v2.0.4 (26.11.11)
   /* Запрещаем блоку "Лучшее за 24 часа" внезапно начинать следовать за скроллингом страницы */
   .float_block {position:static !important; opacity:1 !important;}
 
+  #facebook_reader_wrapper {display:none !important}
+
 
 /* Comments */
 
