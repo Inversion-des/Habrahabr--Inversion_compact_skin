@@ -76,9 +76,6 @@ v2.0.4 (26.11.11)
   .hub_header .hub-index {margin-top:10px !important;}
   .hub_header .hub-index .value {font-size:17px !important;line-height:16px !important;}
   
-  .company_header {margin-top:-18px !important;}
-  .company_header .rating {margin-top:20px !important;font-size:17px !important;width:85px !important;text-align:center;margin-left:0px !important;}
-
   /* User page title */
   .user_header {margin-top:-18px !important;padding-top:0px !important}
   .user_header .avatar {margin-top:-2px !important}
@@ -204,4 +201,18 @@ div.search {margin-left:423px !important;top:27px !important;min-width:173px !im
 div.search {margin-left:523px !important;top:31px !important;min-width:85px !important}
 #header .logo {position:absolute;left:-112px;top:-6px;z-index:-5}
 .main_menu {height:35px}
+}
+
+
+@-moz-document url-prefix(http://habrahabr.ru/company) {
+  body {background:none !important}
+
+  #header_bg {position:absolute !important;opacity:1 !important;-moz-box-shadow:none !important;box-shadow:none !important;}
+  #header_bg + #header {position:absolute !important}
+
+  /* исправляет неприятное подстраивание фоновой рамки после подгрузки контента страницы */
+  .inner {overflow:hidden !important}
+  
+  .company_header {margin-top:-18px !important;}
+  .company_header .rating {margin-top:20px !important;font-size:17px !important;width:85px !important;text-align:center;margin-left:0px !important;}
 }
