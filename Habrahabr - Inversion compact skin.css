@@ -122,8 +122,8 @@ v2.0.4 (26.11.11)
 
   /* Reply */
   a.reply_link {border-bottom-style:none !important;position:relative;top:-4px}
-  .comments_list .message + div.reply a.reply_link {visibility:hidden}
-  .comments_list .message:hover + div.reply a.reply_link, .comments_list div.reply:hover a.reply_link {visibility:visible}
+  .comments_list .comment_body div.reply a.reply_link {visibility:hidden}
+  .comments_list .comment_body:hover div.reply a.reply_link, .comments_list div.reply:hover a.reply_link {visibility:visible}
   .comments_list .comment_item .reply_comments {margin-top:10px !important}
   
   /* Padding */
