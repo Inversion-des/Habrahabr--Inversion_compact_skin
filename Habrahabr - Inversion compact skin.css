@@ -125,6 +125,7 @@ v2.0.4 (26.11.11)
   .comments_list .comment_body div.reply a.reply_link {visibility:hidden}
   .comments_list .comment_body:hover div.reply a.reply_link, .comments_list div.reply:hover a.reply_link {visibility:visible}
   .comments_list .comment_item .reply_comments {margin-top:10px !important}
+  .reply_form_placeholder {margin-left:26px !important}
   
   /* Padding */
   .folding-dot-holder {display:none !important}
